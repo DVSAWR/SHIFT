@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shift"
+version = "0.1.0"
+description = ""
+authors = ["DVSAWR <126908465+DVSAWR@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+sqlalchemy = "^2.0.30"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
